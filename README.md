@@ -3,8 +3,7 @@
 - Eryk Bluj
 - Mateusz Janus
 # Description of the project 
-For our final project during Garage of Complexity course we decided to create a chessboard with an added display system. A current arrangement of pieces on the board is shown on a computer screen. In order to distinguish between each chess piece, we placed a particular resistor inside of it. The electric circuit in our project works as a voltage divider. Two wires are glued to every square on the board, therefore by placing a given piece on it, a certain resistor is connected to the circuit. This results in a voltage drop, which can be read by an Arduino board. Multiplexers helped us in determining the position of a piece. 
-
+For our final project during Garage of Complexity course we decided to create a chessboard with an integrated display system. The board detects the arrangement of pieces and shows their positions on a computer screen. To identify each piece, we placed a certain resistor inside it. The electric circuit in our project is based on a voltage divider. Each square on the board has two wires. When a piece is placed on it, a given resistor completes the circuit. This results in a characteristic voltage drop. Multiplexers (MUX in short) were used to determine a position of a piece. Each multiplexer corresponds to a row of the chessboard, with its digital pins assigned to individual squares. The voltage value on every square is read cyclically by an Arduino board and a representation of a chess board is created in a terminal. 
 <p align="center">
 <img src="https://github.com/ComplexityGarage/ExemplaryProject1/assets/104577187/8e26472c-64b3-4d22-9e41-16306ed59c64" width="500">
 
