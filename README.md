@@ -3,15 +3,15 @@
 - Eryk Bluj
 - Mateusz Janus
 # Description of the project 
-For our final project during Garage of Complexity course we decided to make a chessboard with an added display system.  
+For our final project during Garage of Complexity course we decided to create a chessboard with an added display system. A current arrangement of pieces on the board is shown on a computer screen. In order to distinguish between each chess piece, we placed a particular resistor inside of it. The electric circuit in our project works as a voltage divider. Two wires are glued to every square on the board, therefore by placing a given piece on it, a certain resistor is connected to the circuit. This results in a voltage drop, which can be read by an Arduino board. Multiplexers helped us in determining the position of a piece. 
 
 <p align="center">
 <img src="https://github.com/ComplexityGarage/ExemplaryProject1/assets/104577187/8e26472c-64b3-4d22-9e41-16306ed59c64" width="500">
 
 # Science and tech used 
-List of items used in making the alarm clock:
-1. justPi 2x16 green LCD screen
-2. photoresistor 
+List of items used during the making of the cheesboard:
+1. wooden chessboard with plastic chess and chequers pieces
+2. ridiculous number of wires 
 3. four 10k&Omega; resistors
 4. potentiometer
 5. DS1302 real time clock module
