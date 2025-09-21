@@ -18,7 +18,7 @@ List of equipment:
 5. 8 CD4051 multiplexers
 7. Arduino mega 2560 and Arduino Uno Rev3 boards
 
-List of resitors with a matching piece (value --- piece):
+List of resitors with a matching piece (resistance --- piece):
 ### white pieces:
 1. 510 &Omega; --- pawn
 2. 1.2 k&Omega; --- knight
@@ -34,13 +34,12 @@ List of resitors with a matching piece (value --- piece):
 5. 300 k&Omega; --- queen
 6. 680 k&Omega; --- king
 
-Two wires were attached to each square of the chessboard. Resitors were placed on chequers pieces and then glued to chess pieces.   The current time and time of an alarm are displayed on an lcd screen. A photoresistor placed in the chimney serves as a switch. An rtc module keeps track of  time. Two buttons in front of a garage allow a user to change both current and alarm time. There is also an analogue speaker, which plays a simple melody when an alarm goes off. All constituents are connected to an Arduino UNO board through a breadboard.
 # State of the art 
 We learned many useful things throughout this project and the whole course in general. We extended our knowledge about Arduino boards. We are now familliar with basic working principle of multiplexers. We also gained experience in understanding documentation and wiring related to new components. The terminal available in Arduino IDE software wasn't suitable for our project, that's why we had to learn to use PuTTY software, which enabled us to display chess pieces on a screen. In addition to that, we learned how to efficiently divide tasks and deal with troubleshooting.
 # What next?
-Right now we are thinking about what our next project could be and looking forward to the next edition of the course.
+There are a few things that need improvement in our project. Placing a piece onto a chessboard is inconvenient and requires precision. To tackle this problem we might use sensors instead of resistors, so that the game can go smoothly. Another thing we want to change is the display, which is rather plain and schematic. We are planning to use Python in order to enhance the visuals. Due to a lack of time and wires we didn't manage to finish the whole project. In the future we will work on wiring the whole board and improving the stability of the circuit.
 # Sources 
-- [LCD screen] ( https://docs.arduino.cc/learn/electronics/lcd-displays/ )
-- [RTC module library] ( https://www.arduino.cc/reference/en/libraries/ds1302/ )
-- [Simple melody example] ( https://docs.arduino.cc/built-in-examples/digital/toneMelody/ )
-- [Garage project] (https://www.tinkercad.com/things/0RcNsphQe3S-garage)
+- [Volatge divider] ( https://en.wikipedia.org/wiki/Voltage_divider )
+- [PuTTY softawre] ( https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html )
+- [MUX datasheet] ( https://www.ti.com/lit/ds/symlink/cd4053b.pdf?ts=1758418394447&ref_url=https%253A%252F%252Fwww.google.com%252F )
+
