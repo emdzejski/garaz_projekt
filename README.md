@@ -8,6 +8,8 @@ For our final project during Garage of Complexity course we decided to create a 
 
 ![fota_szachownica](https://github.com/user-attachments/assets/fc20bb24-6716-4a46-b886-19e6c10ea949)
 
+<img src="https://github.com/user-attachments/assets/fc20bb24-6716-4a46-b886-19e6c10ea949" width="500">
+
 
 # Science and tech used 
 List of items used during the making of the cheesboard:
