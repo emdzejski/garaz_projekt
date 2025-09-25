@@ -34,6 +34,7 @@ List of resitors with a matching piece (resistance --- piece):
 5. 300 k&Omega; --- queen
 6. 680 k&Omega; --- king
 
+**Circuit scheme will be uploaded soon**
 # State of the art 
 We learned many useful things throughout this project and the whole course in general. We extended our knowledge about Arduino boards. We are now familliar with basic working principle of multiplexers. We also gained experience in understanding documentation and wiring related to new components. The terminal available in Arduino IDE software wasn't suitable for our project, that's why we had to learn to use PuTTY software, which enabled us to display chess pieces on a screen. In addition to that, we learned how to efficiently divide tasks and deal with troubleshooting.
 # What next?
