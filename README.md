@@ -10,6 +10,8 @@ For our final project during Garage of Complexity course we decided to create a 
 
 
 # Science and tech used 
+In order to place a resistor inside a chess piece we drilled a small hole in the bottom. A resistor was placed on a chequers piece and then glued to a chess piece. Two holes were also made inside chequers pieces so that the resistors would fit easily. **Circuit scheme will be uploaded soon.**
+
 List of equipment:
 1. wooden chessboard with plastic chess and chequers pieces
 2. ridiculous number of wires 
@@ -34,7 +36,8 @@ List of resitors with a matching piece (resistance --- piece):
 5. 300 k&Omega; --- queen
 6. 680 k&Omega; --- king
 
-**Circuit scheme will be uploaded soon**
+
+
 # State of the art 
 We learned many useful things throughout this project and the whole course in general. We extended our knowledge about Arduino boards. We are now familliar with basic working principle of multiplexers. We also gained experience in understanding documentation and wiring related to new components. The terminal available in Arduino IDE software wasn't suitable for our project, that's why we had to learn to use PuTTY software, which enabled us to display chess pieces on a screen. In addition to that, we learned how to efficiently divide tasks and deal with troubleshooting.
 # What next?
